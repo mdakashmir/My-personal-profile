@@ -1,89 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MD. AKASH MIR</title>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
-    <!-- Font Awesome CDN for Icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: 'Poppins', sans-serif;
-        }
-        body {
-            background: linear-gradient(135deg, #74ebd5 0%, #ACB6E5 100%);
-            color: #333;
-            text-align: center;
-            padding: 20px;
-            overflow-x: hidden;
-        }
-        h1 {
-            font-size: 3rem;
-            margin-bottom: 20px;
-            animation: fadeIn 2s ease-in-out;
-        }
-        img {
-            width: 200px;
-            height: 200px;
-            object-fit: cover;
-            border-radius: 0%;
-            border: 5px solid white;
-            margin-bottom: 20px;
-            animation: popUp 2s ease;
-        }
-        p, li {
-            font-size: 1rem;
-            margin: 8px 0;
-        }
-        .details, .bio, .result, .motivational, .aboutme {
-            background: white;
-            margin: 20px auto;
-            padding: 20px;
-            border-radius: 15px;
-            max-width: 600px;
-            box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
-            text-align: left;
-        }
-        .aboutme, .bio, .result, .motivational {
-            text-align: center;
-        }
-        a {
-            display: inline-block;
-            margin: 10px 10px 0 10px;
-            text-decoration: none;
-            color: #fff;
-            background-color: #0077ff;
-            padding: 10px 20px;
-            border-radius: 30px;
-            transition: background-color 0.3s;
-            font-weight: 600;
-        }
-        a:hover {
-            background-color: #0056b3;
-        }
-        ul {
-            list-style-position: inside;
-        }
-        .details ul li {
-            white-space: nowrap;
-        }
-        .details ul li i {
-            color: #0077ff;
-            margin-right: 8px;
-        }
-        @keyframes fadeIn {
-            0% {opacity: 0; transform: translateY(-30px);}
-            100% {opacity: 1; transform: translateY(0);}
-        }
-        @keyframes popUp {
-            0% {opacity: 0; transform: scale(0.5);}
-            100% {opacity: 1; transform: scale(1);}
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MD. AKASH MIR</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+    body {
+      background: linear-gradient(135deg, #74ebd5 0%, #ACB6E5 100%);
+      color: #333;
+      text-align: center;
+      padding: 20px;
+      overflow-x: hidden;
+    }
+    h1, h2 {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+      animation: fadeIn 2s ease-in-out;
+    }
+    img {
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 0%;
+      border: 5px solid white;
+      margin-bottom: 20px;
+      animation: popUp 2s ease;
+    }
+    p, li {
+      font-size: 1rem;
+      margin: 8px 0;
+    }
+    .details, .bio, .result, .motivational, .aboutme {
+      background: white;
+      margin: 20px auto;
+      padding: 20px;
+      border-radius: 15px;
+      max-width: 600px;
+      box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
+      text-align: left;
+      overflow-wrap: break-word;
+      word-wrap: break-word;
+      word-break: break-word;
+    }
+    .aboutme, .bio, .result, .motivational {
+      text-align: center;
+    }
+    a {
+      display: inline-block;
+      margin: 10px 10px 0 10px;
+      text-decoration: none;
+      color: #fff;
+      background-color: #0077ff;
+      padding: 10px 20px;
+      border-radius: 30px;
+      transition: background-color 0.3s;
+      font-weight: 600;
+    }
+    a:hover {
+      background-color: #0056b3;
+    }
+    ul {
+      list-style: none; /* bullet remove */
+      padding: 0;
+    }
+    .details ul li {
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+      flex-wrap: nowrap;
+      overflow-x: auto;
+    }
+    .details ul li i {
+      color: #0077ff;
+      margin-right: 8px;
+      min-width: 20px;
+    }
+    @keyframes fadeIn {
+      0% {opacity: 0; transform: translateY(-30px);}
+      100% {opacity: 1; transform: translateY(0);}
+    }
+    @keyframes popUp {
+      0% {opacity: 0; transform: scale(0.5);}
+      100% {opacity: 1; transform: scale(1);}
+    }
+  </style>
 </head>
 <body>
 
@@ -92,49 +100,49 @@
 <img src="1000027944 (1) (1).jpg" alt="MD Akash Mir Photo">
 
 <div class="aboutme">
-    <h2>About Me</h2>
-    <p>I am a HSC second-year student. With a keen interest in science, mathematics, technology, AI, I am dedicated to expanding my knowledge and expertise in these fields. Alongside my academic pursuits, I enjoy playing football, watching movies, playing games and reading books.</p>
+  <h2>About Me</h2>
+  <p>I am a HSC second-year student. With a keen interest in science, mathematics, technology, AI, I am dedicated to expanding my knowledge and expertise in these fields. Alongside my academic pursuits, I enjoy playing football, watching movies, playing games and reading books.</p>
 </div>
 
 <div class="details">
-    <h2>My Details</h2>
-    <ul>
-        <li><i class="fas fa-user"></i><strong>Name:</strong> MD. AKASH MIR</li>
-        <li><i class="fas fa-male"></i><strong> Father's Name:</strong> MD. GILO MIR</li>
-        <li><i class="fas fa-female"></i><strong> Mother’s Name:</strong> MIS. JAHERA AKTER</li>
-        <li><i class="fas fa-venus-mars"></i><strong> Gender:</strong> Male</li>
-        <li><i class="fas fa-heart"></i><strong> Marital Status:</strong> Single</li>
-        <li><i class="fas fa-praying-hands"></i><strong> Religion:</strong> Islam</li>
-        <li><i class="fas fa-tint"></i><strong> Blood Group:</strong> B+</li>
-        <li><i class="fas fa-flag"></i><strong> Nationality:</strong> Bangladeshi</li>
-        <li><i class="fas fa-birthday-cake"></i><strong> Date of Birth:</strong> 15 August 2006</li>
-        <li><i class="fas fa-school"></i><strong> College:</strong> Netrokona City College</li>
-        <li><i class="fas fa-map-marker-alt"></i><strong> Current Address:</strong> Kakuni Kona</li>
-        <li><i class="fas fa-home"></i><strong> Permanent Address:</strong> Kakuni Kona</li>
-    </ul>
+  <h2>My Details</h2>
+  <ul>
+    <li><i class="fas fa-user"></i><strong>Name:</strong>&nbsp;MD. AKASH MIR</li>
+    <li><i class="fas fa-male"></i><strong>Father's Name:</strong>&nbsp;MD. GILO MIR</li>
+    <li><i class="fas fa-female"></i><strong>Mother’s Name:</strong>&nbsp;MIS. JAHERA AKTER</li>
+    <li><i class="fas fa-venus-mars"></i><strong>Gender:</strong>&nbsp;Male</li>
+    <li><i class="fas fa-heart"></i><strong>Marital Status:</strong>&nbsp;Single</li>
+    <li><i class="fas fa-praying-hands"></i><strong>Religion:</strong>&nbsp;Islam</li>
+    <li><i class="fas fa-tint"></i><strong>Blood Group:</strong>&nbsp;B+</li>
+    <li><i class="fas fa-flag"></i><strong>Nationality:</strong>&nbsp;Bangladeshi</li>
+    <li><i class="fas fa-birthday-cake"></i><strong>Date of Birth:</strong>&nbsp;15 August 2006</li>
+    <li><i class="fas fa-school"></i><strong>College:</strong>&nbsp;Netrokona City College</li>
+    <li><i class="fas fa-map-marker-alt"></i><strong>Current Address:</strong>&nbsp;Kakuni Kona</li>
+    <li><i class="fas fa-home"></i><strong>Permanent Address:</strong>&nbsp;Kakuni Kona</li>
+  </ul>
 </div>
 
 <div class="bio">
-    <h2>Bio</h2>
-    <p>Where the final destination lies, even I do not know! 🧸<br>
-    Always Alhamdulillah, no matter what happens. ❤️<br>
-    (Always on the path of truth)</p>
+  <h2>Bio</h2>
+  <p>Where the final destination lies, even I do not know! 🧸<br>
+  Always Alhamdulillah, no matter what happens. ❤️<br>
+  (Always on the path of truth)</p>
 </div>
 
 <div class="result">
-    <h2>SSC Result</h2>
-    <p>Exam 2024 | Science | GPA: 4.67</p>
+  <h2>SSC Result</h2>
+  <p>Exam 2024 | Science | GPA: 4.67</p>
 </div>
 
 <div class="motivational">
-    <h2>Motivational Message</h2>
-    <p>"When the dream is yours, the battle must be yours too. Studying through sleepless nights, silently enduring hardships, starting over after countless failures — all these together will one day become your story. The pain you are enduring now will be the reason for your laughter one day. Don't be afraid, don't stop. Your time will come... just have a little patience and believe in yourself. You can do it. You must do it."</p>
+  <h2>Motivational Message</h2>
+  <p>"When the dream is yours, the battle must be yours too. Studying through sleepless nights, silently enduring hardships, starting over after countless failures — all these together will one day become your story. The pain you are enduring now will be the reason for your laughter one day. Don't be afraid, don't stop. Your time will come... just have a little patience and believe in yourself. You can do it. You must do it."</p>
 </div>
 
 <!-- Buttons Section -->
 <div style="margin-top: 20px;">
-    <a href="https://www.youtube.com/@mdakashmir201" target="_blank">Visit My YouTube Channel</a>
-    <a href="mailto:mdakashmir175@gmail" target="_blank">Contact Me</a>
+  <a href="https://www.youtube.com/@mdakashmir201" target="_blank">Visit My YouTube Channel</a>
+  <a href="mailto:mdakashmir175@gmail.com" target="_blank">Contact Me</a>
 </div>
 
 </body>
